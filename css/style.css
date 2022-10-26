@@ -1,0 +1,50 @@
+.card {
+    width: 250px;
+    border: 1px solid gray;
+    font-family: 'Hind Siliguri', sans-serif;
+    display: inline-block;
+    margin: 10px 10px;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .text {
+    padding: 10px 15px 10px 15px;
+
+}
+
+.card .text h3 {
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+}
+.card .text p {
+    margin: 0 0 10px 0;
+}
+.card .text .class_p {
+    color: orange;
+}
+.card .text a {
+    text-decoration: none;
+    border: 1px solid orange;
+    color: red;
+    display: inline-block;
+    padding: 10px 15px ;
+    transition: 2s;
+    padding: 5px;
+}
+.card .text a:hover {
+    background-color: red;
+    color: azure;
+}
+.card .text .taka {
+    color: red;
+}
+.card .text .last {
+    text-decoration: line-through;
+}
+.card .text .first{
+    font-size: 10px;
+}
